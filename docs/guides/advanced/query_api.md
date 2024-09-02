@@ -208,7 +208,7 @@ The Logfire API supports various response formats and query parameters to give y
     - **`limit`**: An optional parameter to limit the number of rows returned by the query. If not specified, **the default limit is 500**. The maximum allowed value is 10,000.
     - **`row_oriented`**: Only affects JSON responses. If set to `true`, the JSON response will be row-oriented; otherwise, it will be column-oriented.
 
-All query parameters are optional and can be used in any combination to tailor the API response to your needs.
+All query parameters besides `sql` are optional and can be used in any combination to tailor the API response to your needs.
 
 ### Important Notes
 
